@@ -1,7 +1,7 @@
 ## This following is an example of how scoping rules in R can be used 
 ## to preserve state inside of an R object. In this code, there are a   
 ## pair of functions that, together, cache the inverse of a matrix.
-
+##_________________________________________________________________
 ## makeCacheMatrix() creates a special matrix object that can
 ## cache its inverse.  The actual calculation of the inverted matrix
 ## is done outside of makeCacheMatrix(), in a function called cacheSove().
